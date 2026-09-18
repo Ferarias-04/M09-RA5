@@ -31,6 +31,6 @@ public class RotX {
 
     }
     public static String xifraRotX (String cadena, int desplaçament){
-        
+        //
     }
 }
