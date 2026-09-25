@@ -8,17 +8,24 @@ public class Monoalfabetic {
         //Collections.shuffle(Llista)
         //convertir de list a char[]
         //Sintaxis: Collections.shuffle(List<?> list)
-        ArrayList<String> colors = new ArrayList<>();
-        colors.add("red");
-        colors.add("blue");
-        colors.add("yellow");
-        System.out.println("original: " + colors);
-        Collections.shuffle(colors);
-        System.out.println("mezclada: " + colors);
+       
 
     }
-    public static String permutaAlfabet(char[] alfabet){
+    public static char[] permutaAlfabet(char[] alfabet){
         List<Character> llista = new ArrayList<>();
+        for(Character L : alfabet){
+            llista.add(L);
+        }
+        Collections.shuffle(llista);
+        char[] permutacio = new char[llista.size()];
+        for(int i = 0; i < llista.size(); i++){
+            permutacio[i] = llista.get(i); 
+        }
+        return permutacio;
+    }
+    public static String xifraMonoAlfa(String cadena) {
+        String resultat = "";
         
+        return resultat;
     }
 }
