@@ -1,4 +1,5 @@
-import java.util.*;
+package src;
+import java.util.*; 
 public class Monoalfabetic {
     public static final String LETTERS = "AÁÀBCÇDEÉÈFGHIÍÌÏJKLMNÑOÓÒPQRSTUÚÙÜVWXYZ";
     public static final char[] majuscules = LETTERS.toCharArray();
