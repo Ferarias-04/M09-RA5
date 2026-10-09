@@ -1,6 +1,8 @@
-package src;
-import java.util.*; 
-public class Monoalfabetic {
+package iticbcn.xifratge;
+
+import java.util.*;
+
+public class XifradorMonoalfabetic {
     public static final String LETTERS = "AÁÀBCÇDEÉÈFGHIÍÌÏJKLMNÑOÓÒPQRSTUÚÙÜVWXYZ";
     public static final char[] majuscules = LETTERS.toCharArray();
     public static char[] permutat = permutaAlfabet(majuscules);
